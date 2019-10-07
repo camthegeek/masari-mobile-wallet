@@ -1,7 +1,7 @@
 "use strict";
 var global = typeof window !== 'undefined' ? window : self;
 global.config = {
-    apiUrl: typeof window !== 'undefined' && window.location ? window.location.href.substr(0, window.location.href.lastIndexOf('/') + 1) + 'api/' : 'https://www.masariwallet.com/api/',
+    apiUrl: typeof window !== 'undefined' && window.location ? window.location.href.substr(0, window.location.href.lastIndexOf('/') + 1) + 'api/' : 'https://wallet.getmasari.org/api/',
     trustedDaemonsAddresses: [
         'https://wallet.getmasari.org:38084/'
     ],
